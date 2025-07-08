@@ -1,0 +1,39 @@
+.container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      table {
+        display: inline-block;
+        border: solid black 1px;
+        padding: 20px;
+        background-color: #d9a299;
+        border-spacing: 20px;
+        border-radius: 10px;
+      }
+      body {
+        background-color: #f0e4d3;
+      }
+
+      #save{
+        background-color: #DDEB9D;
+        border-radius: 10px;
+        padding: 5px;
+      }
+      .deleted{
+         background-color: rgb(231, 98, 98);
+         border-radius: 10px;
+          padding: 5px;
+      }
+      #save:hover{
+        cursor: pointer;
+      }
+
+      input{
+        border-radius: 10px;
+        padding: 10px;
+      }
+      #contents{
+        margin-top: 20px;
+      }

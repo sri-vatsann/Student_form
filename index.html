@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Detail Task</title>
+    <link rel="stylesheet" href="./style.css">
+
+    
+  </head>
+  <body>
+    <div class="container">
+      <h1>Student Form</h1>
+      
+        <table>
+          <tr>
+            <td><b>Name</b></td>
+            <td><input id="names" type="text" placeholder="Name" /></td>
+          </tr>
+
+          <tr>
+            <td><b>Age</b></td>
+            <td><input id="age" type="text" /></td>
+          </tr>
+
+          <tr>
+            <td><b>Gender</b></td>
+            <td>
+             <input class="gend" type="radio" name="gender" value="Male" />Male
+             <input class="gend" type="radio" name="gender" value="Female" />Female
+            </td>
+          </tr>
+
+         <tr>
+  <td><b>Course</b></td>
+  <td>
+    <select id="course">
+      <option value="">--Select--</option> <!-- Optional default -->
+      <option value="Python">Python</option>
+      <option value="Javascript">Javascript</option>
+      <option value="Angular JS">Angular JS</option>
+    </select>
+  </td>
+</tr>
+
+
+          <tr>
+            <td><b>E-mail</b></td>
+            <td><input id="mail" type="text" /></td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <button id="save" onclick="update()" style="width: 100%">Save</button>
+            </td>
+          </tr>
+        </table>
+     
+      <table id="contents">
+        <tr>
+          <td><b>Name</b></td>
+          <td><b>Age</b></td>
+          <td><b>Gender</b></td>
+          <td><b>Course</b></td>
+          <td><b>Email</b></td>
+          <td><b>Action</b></td>
+        </tr>
+      </table>
+    </div>
+    <script src="./script.js"></script>    
+</body>
+</html>
